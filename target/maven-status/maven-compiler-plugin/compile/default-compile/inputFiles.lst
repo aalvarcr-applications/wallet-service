@@ -1,0 +1,16 @@
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\dto\WalletDto.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\WalletServiceImpl.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\config\KafkaConsumerConfig.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\consumer\WalletConsumer.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\constant\CardType.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\WalletService.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\controller\WalletController.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\feignclient\CardClient.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\mappers\MapperWallet.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\WalletRepository.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\Wallet.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\dto\CardDto.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\dto\TransactionDto.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\feignclient\CardService.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\WalletServiceApplication.java
+C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\constant\TypeTransaction.java

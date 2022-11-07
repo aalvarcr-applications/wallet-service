@@ -1,0 +1,16 @@
+com\nttdata\bootcamp\walletservice\application\WalletService.class
+com\nttdata\bootcamp\walletservice\model\constant\CardType.class
+com\nttdata\bootcamp\walletservice\model\dto\TransactionDto.class
+com\nttdata\bootcamp\walletservice\WalletServiceApplication.class
+com\nttdata\bootcamp\walletservice\application\WalletServiceImpl.class
+com\nttdata\bootcamp\walletservice\application\mappers\MapperWallet.class
+com\nttdata\bootcamp\walletservice\model\constant\TypeTransaction.class
+com\nttdata\bootcamp\walletservice\infrastructure\config\KafkaConsumerConfig.class
+com\nttdata\bootcamp\walletservice\infrastructure\feignclient\CardService.class
+com\nttdata\bootcamp\walletservice\model\Wallet.class
+com\nttdata\bootcamp\walletservice\infrastructure\WalletRepository.class
+com\nttdata\bootcamp\walletservice\infrastructure\feignclient\CardClient.class
+com\nttdata\bootcamp\walletservice\model\dto\CardDto.class
+com\nttdata\bootcamp\walletservice\infrastructure\consumer\WalletConsumer.class
+com\nttdata\bootcamp\walletservice\application\controller\WalletController.class
+com\nttdata\bootcamp\walletservice\model\dto\WalletDto.class

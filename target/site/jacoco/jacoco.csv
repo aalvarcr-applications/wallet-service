@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+wallet-service,com.nttdata.bootcamp.walletservice.infrastructure.consumer,WalletConsumer,35,7,0,0,8,2,3,2,3,2
+wallet-service,com.nttdata.bootcamp.walletservice.application.controller,WalletController,60,7,0,0,15,2,8,2,8,2
+wallet-service,com.nttdata.bootcamp.walletservice.model.constant,CardType,44,0,0,0,5,0,1,0,1,0
+wallet-service,com.nttdata.bootcamp.walletservice.model.constant,TypeTransaction,24,0,0,0,3,0,1,0,1,0
+wallet-service,com.nttdata.bootcamp.walletservice.infrastructure.feignclient,CardService,18,3,0,0,3,1,2,1,2,1
+wallet-service,com.nttdata.bootcamp.walletservice.infrastructure.config,KafkaConsumerConfig,0,64,0,0,0,13,0,4,0,4
+wallet-service,com.nttdata.bootcamp.walletservice.model,Wallet,511,0,94,0,14,0,75,0,28,0
+wallet-service,com.nttdata.bootcamp.walletservice.model.dto,WalletDto,435,0,86,0,11,0,68,0,25,0
+wallet-service,com.nttdata.bootcamp.walletservice.model.dto,CardDto,275,0,54,0,7,0,44,0,17,0
+wallet-service,com.nttdata.bootcamp.walletservice.model.dto,TransactionDto,155,0,30,0,4,0,26,0,11,0
+wallet-service,com.nttdata.bootcamp.walletservice.application,WalletServiceImpl,124,3,0,0,20,1,9,1,9,1
+wallet-service,com.nttdata.bootcamp.walletservice,WalletServiceApplication,5,16,0,0,2,5,1,2,1,2
+wallet-service,com.nttdata.bootcamp.walletservice.application.mappers,MapperWallet,20,3,0,0,4,1,2,1,2,1

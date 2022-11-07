@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\controller\WalletController.java">
+<error line="5" severity="warning" message="Orden incorrecto para el import &apos;java.math.BigDecimal&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="10" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.beans.factory.annotation.Autowired&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\mappers\MapperWallet.java">
+<error line="6" severity="warning" message="Orden incorrecto para el import &apos;org.modelmapper.ModelMapper&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\WalletService.java">
+<error line="7" severity="warning" message="Orden incorrecto para el import &apos;java.math.BigDecimal&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\application\WalletServiceImpl.java">
+<error line="6" severity="warning" message="Orden incorrecto para el import &apos;com.nttdata.bootcamp.walletservice.infrastructure.feignclient.CardService&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.beans.factory.annotation.Autowired&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\config\KafkaConsumerConfig.java">
+<error line="4" severity="warning" message="Orden incorrecto para el import &apos;org.apache.kafka.clients.consumer.ConsumerConfig&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\consumer\WalletConsumer.java">
+<error line="9" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.beans.factory.annotation.Autowired&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\feignclient\CardClient.java">
+<error line="4" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.web.bind.annotation.PathVariable&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\feignclient\CardService.java">
+<error line="4" severity="warning" message="Orden incorrecto para el import &apos;javax.naming.ServiceUnavailableException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="5" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.beans.factory.annotation.Autowired&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\infrastructure\WalletRepository.java">
+<error line="4" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.data.mongodb.repository.ReactiveMongoRepository&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\constant\CardType.java">
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\constant\TypeTransaction.java">
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\dto\CardDto.java">
+<error line="6" severity="warning" message="Orden incorrecto para el import &apos;java.util.Date&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\dto\TransactionDto.java">
+<error line="5" severity="warning" message="Orden incorrecto para el import &apos;java.math.BigDecimal&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\dto\WalletDto.java">
+<error line="4" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.data.annotation.Id&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\model\Wallet.java">
+<error line="7" severity="warning" message="Orden incorrecto para el import &apos;org.springframework.data.annotation.Id&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\java\com\nttdata\bootcamp\walletservice\WalletServiceApplication.java">
+</file>
+<file name="C:\Users\aalvarcr\Documents\bootcamp-project\wallet-service\src\main\resources\application.properties">
+</file>
+</checkstyle>

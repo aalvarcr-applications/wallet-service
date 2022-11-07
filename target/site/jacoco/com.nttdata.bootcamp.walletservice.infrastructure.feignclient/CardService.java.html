@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CardService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">wallet-service</a> &gt; <a href="index.source.html" class="el_package">com.nttdata.bootcamp.walletservice.infrastructure.feignclient</a> &gt; <span class="el_source">CardService.java</span></div><h1>CardService.java</h1><pre class="source lang-java linenums">package com.nttdata.bootcamp.walletservice.infrastructure.feignclient;
+
+import com.nttdata.bootcamp.walletservice.model.dto.CardDto;
+import javax.naming.ServiceUnavailableException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.circuitbreaker.ReactiveCircuitBreakerFactory;
+import org.springframework.stereotype.Component;
+import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Mono;
+
+/**
+ *
+ * @since 2022
+ */
+
+@Component
+<span class="fc" id="L17">public class CardService {</span>
+  @Autowired
+  CardClient cardClient;
+
+  @Autowired
+  ReactiveCircuitBreakerFactory reactiveCircuitBreakerFactory;
+
+  @Autowired
+  private WebClient webClientBuilder;
+
+
+  public Mono&lt;CardDto&gt; findCardByNumberAndCvv(String number, String cvv) {
+<span class="nc" id="L29">    return reactiveCircuitBreakerFactory.create(&quot;${circuitbreaker.instances.name}&quot;)</span>
+<span class="nc" id="L30">                .run(cardClient.findCardByNumberAndCvv(number, cvv),</span>
+                  throwable -&gt;
+<span class="nc" id="L32">                  Mono.error(new ServiceUnavailableException(</span>
+                    &quot;The service is not available, try in a few minutes please&quot;)));
+  }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>
